@@ -5,6 +5,7 @@
 #include<algorithm>
 using namespace std;
 vector<int> frequent(vector<int>& a, int k){
+    
     int n = a.size();
     priority_queue<pair<int,int >,vector<pair<int,int>>,greater<pair<int,int>>> minHeap;
 
@@ -12,6 +13,7 @@ vector<int> frequent(vector<int>& a, int k){
     for(int i=0;i<n;i++){
          mp[a[i]]++;
     }
+
 
     for(auto i = mp.begin();i!=mp.end();i++){
         minHeap.push({i->second,i->first});

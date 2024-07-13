@@ -45,6 +45,7 @@ Node *indexInseration(Node *head, int data, int index){
     ptr->next=temp;
     return head;
 }
+
 int main(){
     int n;
     cin>>n;
