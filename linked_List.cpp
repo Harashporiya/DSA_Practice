@@ -47,9 +47,9 @@ Node *indexInseration(Node *head, int data, int index){
 }
 
 int main(){
-    int n;
+     int n;
     cin>>n;
-
+        
          Node *head = NULL;
          Node *temp = NULL;
 
