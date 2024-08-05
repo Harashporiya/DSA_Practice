@@ -67,6 +67,6 @@ int main(){
      int data = 0;
     // head =  inserationfirst(head,data);
     // head = lastinseration(head, data);
-    head = indexInseration(head,data,2);
+    // head = indexInseration(head,data,2);
      printlinkedlist(head);
 }
